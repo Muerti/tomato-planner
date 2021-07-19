@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TomatoActivity">
+    <LinearLayout
+        android:id="@+id/parent_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+        <Button
+            android:id="@+id/startTomatoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetTop="10dp"
+            android:insetBottom="10dp"
+            android:height="60dp"
+            android:text="Start"
+            android:layout_gravity="center"/>
+        <ExpandableListView
+            android:id="@+id/expandableListViewTomato"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
